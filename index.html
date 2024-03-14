@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My First Web Page</title> 
+    <style>
+      header {
+        background: url(images/central_park.jpg) 0 -200px no-repeat; /* place image as background */
+        height: 400px; /* give header height for display */
+        background-size: 1500px;
+        padding-top: 100px;
+        padding-left: 100px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      li {
+        list-style-type: none; 
+        display: inline;
+      }
+      li a {
+        text-decoration: none; /* removes underline */
+      }
+      li a:link {
+        color: #000; /*before click */
+      }
+      li a:visited {
+        color: #818db3; /* after click */
+      }
+      li a:hover {
+        color: #333; /* Mouse over */
+      }
+      li a:active {
+        color: #753a30; /* mouse down */
+      }
+      nav {
+        background-color: rgb(255,245,238);
+        height: 50px;
+        text-align: center;
+        padding-top: 2px;
+      }
+      main {
+        height: 400px;
+      }
+      main h1 {
+        color: rgb(129,141,179);
+        font-family: Arial;
+      }
+      footer {
+        height: 40px;
+        background-color: rgb(129,141,179);
+        text-align: center;
+        padding-top: 20px;
+        color: rgb(211,218,240);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <!-- Header information -->
+      <header style="font-size: 60px; color: #fff">My Web Site Brand</header> 
+      <nav> <!-- Start navigation -->
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="page2.html">About</a></li>
+          <li>Gallery</li>
+          <li><a href="page3.html">Contact</a></li>
+        </ul>
+      </nav>
+      <!-- End navigation -->
+      <!-- Main Content -->
+      <main>
+        <h1>My First Heading</h1>
+        <p>My first paragraph.</p>
+      </main>
+      <!-- Footer content -->
+      <footer>&copy; Copyright 2020</footer>
+    </div>
+  </body>
+</html>
